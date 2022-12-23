@@ -12,6 +12,6 @@ jobs:
   triage-pr:
     runs-on: ubuntu-latest
     steps:
-    - uses: alephao/reginald@develop
+    - uses: alephao/reginald@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
